@@ -1,0 +1,166 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+#title{
+    background-color:#cf749a;
+    color:white
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{ 
+    color:white;
+    font-family: 'Merriweather';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3{
+    font-family:'Merriweather';
+    font-weight: bold ;
+}
+
+p{
+    color:gray
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family:'Lato';
+    font-size: 2.0rem;
+    font-weight: bold;
+    color:grey
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+   font-family:'Lato'; 
+   font-size: 1.3rem;
+
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width:55%;
+    transform:rotate(10deg);
+    position: absolute;
+}
+
+
+#features{
+    padding: 4% 10%;
+    background-color:white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align:center;
+    padding: 3%;
+}
+
+.icon{
+    color:rgba(108, 181, 212, 0.808);
+    margin-bottom:2rem ;
+}
+
+.icon:hover{
+    color:#e9a8c3;
+
+}
+
+#testimonials{
+    text-align:center;
+    background-color:#cf749a;
+    color:white
+
+}
+
+.carousel-item{
+    padding: 7% 10%;
+}
+
+.testimonial-image{
+    width:15%;
+    border-radius: 50%;
+    margin:10px;
+
+}
+
+#press{
+    background-color:#cf749a;
+    text-align: center;
+}
+
+.press-logo{
+   width: 10%;
+   margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-header{
+    color:#000;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*call to action section*/
+#cta{
+    background-color: #cf749a;
+    color: white;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-family:'Merriweather';
+    font-weight: bold;
+    font-size: 3.5rem ;
+    line-height: 1.5;
+}
+
+/*footer section*/
+#footer{
+    padding:7% 15%;
+    text-align: center; 
+}
+
+.social-icon{
+    margin:20px 10px;
+}
+
+/*media query section*/
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
